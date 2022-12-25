@@ -5,6 +5,7 @@ import { client } from "../libs/client";
 export default function Home({ cms }) {
   return (
     <div>
+      <h1>next.jsのテストです。</h1>
       <ul>
         {cms.map((cms) => (
           <li key={cms.id}>
