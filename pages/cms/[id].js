@@ -1,6 +1,6 @@
 import { client } from "../../libs/client";
 
-export default function cmsId({ cms }) {
+export default function BlogId({ cms }) {
   return (
     <main>
       <h1>{cms.title}</h1>
